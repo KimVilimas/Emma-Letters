@@ -1,12 +1,34 @@
 body {
   font: 300 36px "Helvetica Neue";
-  height: 640px;
+  /* height: 640px;
   margin: 80px 160px 80px 160px;
   overflow: hidden;
   position: relative;
-  width: 960px;
+  width: 960px; */
 }
-
+.josephgroups {
+  opacity: 0;
+  transition: 1s opacity;
+  pointer-events: none;
+}
+.josephgroups.visible {
+  opacity: 1;
+}
+#states path {
+  fill: #ccc;
+  stroke: #fff;
+}
+#circles circle {
+  fill: red;
+  fill-opacity: .8;
+  stroke: #fff;
+  cursor: pointer;
+}
+#jcircles circle {
+  fill: blue;
+  fill-opacity: .8;
+  stroke: #fff;
+}
 a:link, a:visited {
   color: #777;
   text-decoration: none;

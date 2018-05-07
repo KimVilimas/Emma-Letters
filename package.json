@@ -1,0 +1,24 @@
+{
+  "name": "emma-letters",
+  "version": "1.0.0",
+  "description": "Using the extant letters available from Joseph Smith Papers Online between Emma Hale Smith and Joseph Smith, visualizing these dynamics spatially and in critical context",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KimVilimas/Emma-Letters.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KimVilimas/Emma-Letters/issues"
+  },
+  "homepage": "https://github.com/KimVilimas/Emma-Letters#readme"
+}
