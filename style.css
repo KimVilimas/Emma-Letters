@@ -6,14 +6,21 @@ body {
   position: relative;
   width: 960px; */
 }
-.josephgroups {
+/* .josephgroups {
   opacity: 0;
   transition: 1s opacity;
   pointer-events: none;
 }
 .josephgroups.visible {
   opacity: 1;
+} */
+.arc {
+  fill: none;
+  stroke: red;
+  stroke-width: 3px;
+  stroke-linecap: round;
 }
+
 #states path {
   fill: #ccc;
   stroke: #fff;
